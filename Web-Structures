@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>City Care Hospitale</title>
+    </head>
+    <style>
+        body{
+            background-color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin:20px;
+        }
+        #main-header{
+            background-color: white;
+            text-align: center;
+            padding:20px;
+            border:2px solid black;
+            border-radius: 40px;
+        }
+        .content-box{
+            background-color: white;
+            padding:15px;
+            margin-top: 20px;
+            border:3px solid gray;
+        }
+        .section-heading{
+            color:darkblue;
+            text-align:center;
+        }
+        .doctor-row{
+            font-size:17px;
+        }
+        #appointment{
+            background-color: white;
+            padding:15px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        #appointment-link{
+            background-color: orange;
+            color: blue;
+            padding:3px;
+            text-decoration: none;
+        }
+        #appointment-link:hover{
+            background-color: white;
+        }
+        #contact-footer{
+            background-color: white;
+            padding:15px;
+            margin-top: 20px;
+        }
+        #copyright{
+            text-align: center;
+            background-color: darkgray;
+            color:blueviolet;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+    <body>
+        <div id="main-header">
+        <header>
+            <h1><b><u>City Care Hospital</u></b></h1>
+            <h2><em>Your Health, Our Priority</em><hr></hr></h2>
+        </header>
+        </div>
+        <section class="content-box">
+            <header>
+                <h3 class="section-heading">Welcome</h3>
+            </header>
+            <p>Welcome to <b>City Care Hospital.</b> We are comitted to providing high-quality healthcare with modern medical facilities and experienced doctors. Our hospital offers 24/7 emergency service and specialised treatment to ensure the best care for every patient.<hr></hr></p>
+        </section>
+        <article class="content-box">
+            <h3 class="section-heading"><u>Departments</u></h3>
+            <ul>
+                <li>Cardiology</li>
+                <li>Neurology</li>
+                <li>Orthopedics</li>
+                <li>Pediatrics</li>
+                <li>Emergency Care</li>
+                <li>General Medicine</li>
+            </ul>
+            <h3 class="section-heading"><u>Available Doctors</u></h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Doctor Name</th>
+                        <th>Department</th>
+                        <th>Experience</th>
+                    </tr>
+                </thead>
+                <tbody class="doctor-row">
+                    <tr>
+                        <td>Dr.Rahul Sharama</td>
+                        <td>Cardiology</td>
+                        <td>15 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Dr.Priya Shetty</td>
+                        <td>Neurology</td>
+                        <td>10 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Dr.Arjun Nayak</td>
+                        <td>Orthopedics</td>
+                        <td>12 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Dr.Sneha Rai</td>
+                        <td>Pediatrics</td>
+                        <td>8 Yeras</td>
+                    </tr>
+                    <tr>
+                        <td>Dr.Vikram Aradhya</td>
+                        <td>Emergency Care</td>
+                        <td>18 Years</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <section id="appointment">
+            <p>
+            <button><a id="appointment-link" href="h2.html">Book your Appointment Today!</a></button>
+            </p>
+        </section>
+        <article class="content-box">
+            <h3 class="section-heading"><u>Hospital Timings</u></h3>
+            <ol>
+                <li>Monday-Friday:8:00 AM-8:00 PM</li>
+                <li>Saturday:9:00 AM-6:00 PM</li>
+                <li>Sunday:Emergency Service Only</li>
+            </ol>
+        </article>
+        <footer id="contact-footer">
+            <hr></hr>
+            <h3 class="section-heading"><u>Contact Information</u></h3>
+            <P><b>Phone:</b><br>+91 9876543210</br></P>
+            <p><b>Email:</b><br>care@citycarehospital.com</br></p>
+            <p><b>Adress:</b><br>City Care Hospital,</br><br>MG Road,</br><br>Mangaluru,</br><br>Karnataka - 575001</br></p>
+        </footer>
+        <footer id="copyright">
+            <p>&copy; 2026 City Care Hospital. All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>City Care Hospital</title>
+    </head>
+    <style>
+        body{
+            background-color: #e8e8e8;
+            font-family: Arial, Helvetica, sans-serif;
+            margin:20px;
+            line-height: 1.6;
+        }
+        #main-header{
+            background-color: white;
+            text-align: center;
+            padding:15px;
+            border:2px solid black;
+            border-radius: 40px;
+            box-shadow: 10px 10px 15px gray;
+        }
+        h1{
+            color: darkblue;
+            margin:0;
+            text-shadow: 4px 4px 8px red;
+        }
+        h2{
+            color: darkgreen;
+            margin-top: 8px;
+        }
+        h3{
+            color:darkred;
+            text-decoration: underline;
+        }
+        h4{
+            color: #444;
+        }
+        p{
+            margin:10px 0;
+            font-size:16px;
+        }
+        .card{
+            background-color: white;
+            padding:15px;
+            margin-top: 20px;
+            border:1px solid gray;
+            opacity: 0.8;
+        }
+        .form-row{
+            margin-bottom: 12px;
+        }
+        label{
+            display:inline-block;
+            width:180px;
+            font-weight: bold;
+        }
+        input,select,textarea{
+            padding:8px;
+            border:1px solid #999;
+            border-radius: 5px;
+            width: 250px;
+        }
+        textarea{
+            height: 80px;
+        }
+        ul{
+            background-color: #f8f8f8;
+            padding:15px 30px;
+        }
+        ol{
+            background-color: #f8f8f8;
+            padding:15px 30px;
+        }
+        li{
+            margin:6px 0;
+        }
+        .btn-submit{
+            background-color: green;
+            color: white;
+            padding:10px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .btn-submit:hover{
+            background-color: darkgreen;
+            transform: rotate(-10deg);
+        }
+        .btn-reset{
+            background-color: darkred;
+            color: white;
+            padding:10px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .btn-reset:hover{
+            background-color: maroon;
+            transform: rotate(10deg);
+        }
+        #footer{
+            background-color: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-top: 2px solid gray;
+        }
+        hr{
+            border:1px solid gray;
+        }
+        input:focus{
+            background-color: lightyellow;
+            border:2px solid blue;
+        }
+        li:last-child{
+            color:red;
+        }
+    </style>
+    <body>
+        <header id="main-header">
+            <h1><u>City Care Hospital</u></h1> 
+            <h2><u>Appointment Form</u></h2>           
+        </header>
+        <div class="card">
+            <h4><em>Personal Information</em></h4>
+        <div class="form-row">
+            <label for="name">Full name : </label>
+            <input type="text" id="name" placeholder="Enter your Full Name">
+        </div>
+        <div class="form-row">
+                <label for="age">Age : </label>
+                <input type="number" id="age" placeholder="Enter your Age">
+        </div>
+            <div class="form-row">
+                <label for="gender">Gender : </label>
+                <select name="gender" id="gender">
+                    <option value="male" selected>Male </option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="mobile">Mobile Number : </label>
+                <input type="number" id="mobile" placeholder="Enter your Mobile Number">
+            </div>
+            <div class="form-row">
+                <label for="email">Email Address : </label>
+                <input type="email" id="email" placeholder="Enter your Email Address">
+            </div>
+        </div>
+        <section class="card">
+            <h3><u>Medical Details</u></h3>
+            <div class="form-row>">
+            <label for="department">Preferred Department : </label>
+            <select name="department" id="department">
+                <option value="Cardiology">Cardiology</option>
+                <option value="Neurology">Neurology</option>
+                <option value="Orthopedics">Orthopedics</option>
+                <option value="Pediatrics">Pediatrics</option>
+                <option value="Emergency Care">Emergency Care</option>
+                <option value="General Medicine">General Medicine</option>
+            </select>
+            </div>
+            <div class="form-row">
+                <label for="date">Appointment date : </label>
+                <input type="date" id="date" placeholder="Choose your Appointment Date">
+            </div>
+            <div class="form-row">
+                <label for="symptoms">Symptoms : </label>
+                <textarea name="symptoms" id="symptoms" placeholder="Describe your Symptoms here..." cols="40 rows=20"></textarea>
+            </div>
+        </section>
+        <article class="card">
+            <h3>Upload Documents : </h3>
+            <div class="form-row">
+                <label>Previous Medical Report</label>
+                <input type="file">
+            </div>
+            <div class="form-row">
+                <label>Blood Test Report</label>
+                <input type="file">
+            </div>
+        </article>
+        <section class="card" style="text-align: center;">
+            <button type="submit" class="btn-submit">Submit Appointment</button>
+            <p>
+                <button type="Reset" class="btn-reset">Reset Form</button>
+            </p>
+        </section>
+        <article class="card">
+            <h3><u>Hospital Timings</u></h3>
+            <ol>
+                <li>Monday-Friday:8:00 AM-8:00 PM</li>
+                <li>Saturday:9:00 AM-6:00 PM</li>
+                <li>Sunday:Emergency Service Only</li>
+            </ol>
+        </article>
+        <footer id="footer">
+            <hr></hr>
+            <h3><u>Contact Information</u></h3>
+            <P><b>Phone:</b><br>+91 9876543210</br></P>
+            <p><b>Email:</b><br>care@citycarehospital.com</br></p>
+            <p><b>Adress:</b><br>City Care Hospital,</br><br>MG Road,</br><br>Mangaluru,</br><br>Karnataka - 575001</br></p>
+            <p style="text-align: center;">&copy; 2026 City Care Hospital. All Rights Reserved</p>
+        </footer>
+    </body>
+</html>
