@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AJIET Admission Portal</title>
+    </head>
+    <body>
+        <header>
+            <h2><u>A J Institute of Engineering and Technology</u></h2>
+        </header>
+        <h3>Online Admission Form - Academic Year 2026-2027</h3><hr></hr>
+        <section>
+            <p>Welcome to the official online admission portal of <strong>A J Institute of Engineering and Technology.</strong>Please fill the required details <u>carefully.</u><br>Ensure that the information provided is <em>correct</em> before submitting the application form.</br></p><hr></hr>
+        </section>
+        <section>
+            <h3><u>personal Information</u></h3>
+            <label for="name">Name : </label>
+            <input type="text" id="name" placeholder="Enter your Full Name">
+            <p>
+                <label for="name">Fathers Name : </label>
+                <input type="text" id="name" placeholder="Enter your Fathers Name">
+            </p>
+            <p>
+                <label for="name">Mothers Name : </label>
+                <input type="text" id="name" placeholder="Enter your Mothers Name">
+            </p>
+            <p>
+                <label for="date">Date of Birth : </label>
+                <input type="date" id="date" placeholder="Date of Birth">
+            </p>
+            <p>
+                <label for="gender">Gender : </label>
+                <select name="gender" id="gender">
+                    <option value="male"selected>Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+        </section>
+        <h3><u>Contact Information</u></h3>
+        <article>
+            <label for="number">Mobile Number : </label>
+            <input type="number" id="number" placeholder="Enter ypur Mobile Number">
+            <p>
+                <label for="email">Email Adress : </label>
+                <input type="email" id="email" placeholder="Enter email adress">
+            </p>
+            <p>
+                <label for="adress">Adress : </label>
+                <textarea name="adress" id="adress" placeholder="Enter your permanent adress" cols="30" rows="4"></textarea>
+            </p>
+            <p>
+                <label for="city">City : </label>
+                <input type="text" id="city" placeholder="Enter your City">
+            </p>
+            <p>
+                <label for="state">State : </label>
+                <input type="state" id="state" placeholder="Enter your State">
+            </p>
+        </article>
+        <section>
+            <header>
+                <h3><u>Academic Information</u></h3>
+            </header>
+            <label for="percentage">SSLC percentage : </label>
+            <input type="number" id=" percentage" placeholder="Enter SSLC percentage">
+            <p>
+                <label for="percentage">PUC Percentage : </label>
+                <input type="number" id="percentage" placeholder="Enter PUC Percentage">
+            </p>
+        </section>
+        <section>
+            <header>
+                <h3><u>Branch</u></h3>
+            </header>
+            <label for="branch">Branch : </label>
+            <select type="branch" id="branch">
+                <option value>Artificial Intelligenceand Data Science</option>
+                <option value>Computer science and Engineering</option>
+                <option value>Information Science Engineering</option>
+                <option value>Electronics and Communication Engineering</option>
+                <option value>Mechanical Engineering</option>
+                <option value>Civil Engineering</option>
+            </select>
+        </section>
+        <article>
+            <h3><u>Skills</u></h3>
+            <label for="checkbox">Programming</label>
+            <input type="checkbox" id="checkbox">
+            <p>
+                <label for="checkbox">Communication</label>
+                <input type="checkbox" id="checkbox">
+            </p>
+            <p>
+                <label for="checkbox">Problem Solving</label>
+                <input type="checkbox" id="checkbox">
+            </p><p>
+                <label for="checkbox">Leadership</label>
+                <input type="checkbox" id="checkbox">
+            </p><p>
+                <label for="checkbox">Sports</label>
+                <input type="checkbox" id="checkbox">
+            </p>
+        </article>
+        <section>
+            <header>
+                <h3><u>Upload Documents</u></h3>
+            </header>
+            <label>Upload Passport Size Photo : </label>
+            <input type="file">
+            <p>
+                <label>Upload SSLC Marks Card : </label>
+                <input type="file">
+            </p>
+             <p>
+                <label>Upload PUC Marks Card : </label>
+                <input type="file">
+            </p>
+        </section>
+        <section>
+            <header>
+                <h3><u>Account Details</u></h3>
+            </header>
+            <label for="name">Username : </label>
+            <input type="text" id="name" placeholder="Enter Username">
+            <p>
+            <label for="password">Enter Password : </label>
+            <input type="password" id="password" placeholder="Enter password">  
+            </p>
+            <p>
+            <label for="confirm">Confirm Password : </label>
+            <input type="password" id="Confirm" placeholder="Confirm Your Password">
+            </p>
+        </section>
+        <section>
+            <header>
+                <h3><u>Declaration</u></h3>
+            </header>
+            <label for="checkbox">I hereby declare that all the information provided by me is true and correct to the best of my knowledge.</label>
+            <input type="checkbox" id="checkbox">
+        </section>
+        <section>
+            <button>submit</button>
+            <p>
+                <button>Reset</button>
+            </p>
+        </section>
+        <footer>
+            <h5><u>AJIET Admission Portal</u>s</h5>
+            <p>Admission Helpline:<br>+91 9876543210</br></p>
+            <p>Email:<br>admission@ajiet.edu.in</br></p>
+            <p>&copy; 2026 AJIET. All Rights Resesrved</p>
+        </footer>
+    </body>
+</html>
